@@ -52,9 +52,10 @@ def hangman():
             print('Better luck next time')
             
             tryagin = input('do you want to play again: y/n: ')
-           
             if tryagin == 'y':
                 hangman()
+           
+hangman()
         
       
 
