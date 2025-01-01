@@ -54,6 +54,10 @@ def hangman():
             tryagin = input('do you want to play again: y/n: ')
             if tryagin == 'y':
                 hangman()
+            elif tryagin == 'n':
+                print('Thank you for playing the game')
+                exit()
+             
            
 hangman()
         
